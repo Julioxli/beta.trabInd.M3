@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <H1>Codificador</H1>
+    </header>
+
+<form>
+    <fieldset id="campo">
+        <legend>Configurações</legend>
+        <div class="opcoes" id="opcoes">
+            <label class="label-opt">Cifra de César ou Base 64</label>
+            <input type="radio" name="choose" id="choose1">Cifra de César
+            <input type="radio" name="choose" id="choose2">Base 64
+        </div>
+        
+        <select name="selecao" id="selecao">
+            <option>Codificar</option>
+            <option>Decodificar</option>
+        </select>
+        <textarea name="Area" id="" cols="30" rows="10" placeholder="|Coloque aqui seu codigo ou texto."></textarea>
+        <button type="reset">Limpar</button>
+        <button id="enviar" onclick="changeColor()">enviar</button>
+
+        <label>Resultado:</label>
+        <textarea name="result" id="result" cols="30" rows="10"></textarea>
+
+    </fieldset>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+*{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+body{
+    background-image: linear-gradient(to left, orange, red, purple);
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+}
+
+textarea{
+    background-color: aqua;
+    color:black
+}
+
+.label-opt{
+    display: flex;
+}
